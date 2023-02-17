@@ -4,8 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mvn clean install'
-        sh 'g++ -o script cs213_5.cpp' // compile .cpp file using shell script
+        sh '/var/jenkins_home/workspace/PES1UG20CS213-1/main/cs213_compile' // compile .cpp file using shell script
       }
     }
     
