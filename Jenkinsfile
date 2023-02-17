@@ -10,7 +10,7 @@ pipeline {
     
     stage('Test') {
       steps {
-        sh './scrip' // print output of .cpp file using shell script
+        sh './scriptsss' // Should fail since object file name is scrip, not scriptsss
       }
     }
     
