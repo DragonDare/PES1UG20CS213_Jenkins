@@ -4,7 +4,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'gcc -o script cs213_5.cpp' // compile .cpp file using shell script
+        sh 'mvn clean install'
+        sh 'g++ -o script cs213_5.cpp' // compile .cpp file using shell script
       }
     }
     
