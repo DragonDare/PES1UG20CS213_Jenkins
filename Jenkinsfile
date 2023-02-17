@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -o script cs213_5.cpp' // compile .cpp file using shell script
+        sh 'gcc -o script cs213_5.cpp' // compile .cpp file using shell script
       }
     }
     
