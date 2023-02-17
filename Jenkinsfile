@@ -10,7 +10,7 @@ pipeline {
     
     stage('Test') {
       steps {
-        sh './script' // print output of .cpp file using shell script
+        sh './cs213.exec' // print output of .cpp file using shell script
       }
     }
     
