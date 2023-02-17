@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '/var/jenkins_home/workspace/PES1UG20CS213-1/main/cs213_compile' // compile .cpp file using shell script
+        sh '/var/jenkins_home/workspace/PES1UG20CS213-1/main/cs213_exec' // compile .cpp file using shell script
       }
     }
     
