@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(void) {
-  cout << "Hello, World from PES1UG20CS213\n";
-  cout << "Hello, Jenkins:D\n";
-  cout << "I have successfully built and run my life, not\n";
+  cout << "Hello, World from PES1UG20CS213 for the null void\n";
+  cout << "Hello, Jenkins:(\n";
+  cout << "I have failed to build and run my life, yes\n";
   return 0;
 }
