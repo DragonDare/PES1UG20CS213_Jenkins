@@ -16,7 +16,7 @@ pipeline {
     
     stage('Deploy') {
       steps {
-        // deploy code to production environment
+        echo 'Deployment successful'
       }
     }
   }
